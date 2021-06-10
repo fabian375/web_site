@@ -1,46 +1,46 @@
 html{
-    font-size: 20px;
+  font-size: 20px;
 }
 body {
-  background: #222;
+background: #222;
 }
 
 section {
-  background: rgba(255, 255, 255, 0.6);
-  box-sizing: border-box;
-  float: left;
-  margin: 1%;
-  padding: 1.5rem;
+background: rgba(255, 255, 255, 0.6);
+box-sizing: border-box;
+float: left;
+margin: 1%;
+padding: 1.5rem;
 
 }
 img{
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 @media (min-width: 360px) {
-  body {
-    background: green;
-  }
-  section{
-      width: 48%;
-  }
+body {
+  background: rgb(45, 58, 45);
+}
+section{
+    width: 48%;
+}
 }
 
 @media (min-width: 768px) {
-  body {
-    background: red;
-  }
-  section{
-      width: 31.33%;
-  }
+body {
+  background: rgb(54, 49, 49);
+}
+section{
+    width: 31.33%;
+}
 }
 
 @media (min-width: 1200px) {
-  body {
-    background: yellow;
-  }
-  section{
-      width: 23%;
-  }
+body {
+  background: rgb(54, 54, 45);
+}
+section{
+    width: 23%;
+}
 }
